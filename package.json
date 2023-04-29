@@ -1,0 +1,15 @@
+{
+  "name": "clase-29-04-solucion-parcial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch", 
+    "build": "npx tailwindcss -o build.css --minify"
+  },
+  "author": "Yademir Hernandez",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.3.2"
+  }
+}
